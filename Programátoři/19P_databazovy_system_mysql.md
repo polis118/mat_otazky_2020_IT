@@ -63,7 +63,7 @@ která vrátí true nebo false. Další výhodou je i jeho pomalá rychlost (>10
 
 
 ```
-Autor: Daberger Jiří
-Datum: 8.5.2020
-Tato práce je originální, není ji s čím spojit.
+Update: Roman Táborský
+Původní autor: Daberger Jiří
+Datum: 5. 3. 2022
 ```
