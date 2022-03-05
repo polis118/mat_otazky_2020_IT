@@ -146,6 +146,8 @@ Nevýhody:
 
 Zařízení jenž převádí 2D, či 3D do digitálu.
 
+---
+
 ## Rozhraní pro připojení periferních zařízení
 
 ### PS/2
@@ -243,6 +245,7 @@ nebude. Dnes se používání tohoto rozhraní pro běžné uživatele zúžilo 
 videokamer, v profesionální sféře se používá k rychlému připojení externích disků a optických
 mechanik, čteček paměťových karet atd.
 
+---
 
 ## Disková rozhraní
 
@@ -266,11 +269,16 @@ SATA označuje v informatice počítačovou sběrnici, která využívá datové
 velkokapacitních paměťových zařízení, jako jsou pevné a optické disky. V dnešní době je SATA
 řadičem vybavena většina stolních a přenosných počítačů.
 
+---
+
 ## Zobrazovací soustavy
 
-CMYK, RGB
+CMYK - Cyan, Magenta, Yellow, Black (Key)
+     - Využití u tiskáren, kdy není třeba složitě míchat černou barvu, navíc černá, bude skutečně černá, nikoliv šedá
 
+RGB - Red, Green, Blue
+    - Využívají displaye, kde se danou intenzitou barvy docílí chtěného výsledku (tedy barvy, co chceme)
 ```
-Autor: Milan Urbaník
-Merger: Sádlík Kryštof
-Datum: 7.5.2020
+Update: David Kabeláč
+Púvodní Autor: Milan Urbaník
+Datum: 26. 1. 2022
