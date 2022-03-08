@@ -58,12 +58,12 @@ Proto se pro větší bezpečnost zavedlo přidání „soli“ – tzn, že k 
 `BCRYPT` – Použití v PHP pomocí funkce `password_hash(text)` – defaultně nastaven BCRYPT, ale můžeme změnit za jiný. Od MD5 se liší tím, 
 že používá **náhodnou sůl** a kvalitnější algoritmus. Při stejném vstupu **nedostaneme vždy stejný výstup** (pokud jsou tedy dvě stejné hesla, z hashe to nepoznáme). 
 Výstupem je řetězec s 60 znaky, který začíná znakem $ a ten má 3 části – 1\. určuje typ použitého algoritmu, 2\. je sůl, 3\. samotný hash 
-($2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a).K rozšifrování se pak musí použít funkce **password_verify(heslo, hash)**, 
+(`$2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a`). K rozšifrování se pak musí použít funkce **password_verify(heslo, hash)**, 
 která vrátí true nebo false. Další výhodou je i jeho pomalá rychlost (>100ms).
 
 
 ```
-Autor: Daberger Jiří
-Datum: 8.5.2020
-Tato práce je originální, není ji s čím spojit.
+Update: Roman Táborský
+Původní autor: Daberger Jiří
+Datum: 5. 3. 2022
 ```
