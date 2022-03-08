@@ -54,7 +54,7 @@ protected float desCislo = 5.4f;
 
 Každá metoda se musí nacházet v nějaké třídě, mít návratový datový typ, jméno a definované tělo.
 
-Popřípadě může mít metoda ještě modifikátor přístupnosti,argumenty a jiná klíčová slova.
+Popřípadě může mít metoda ještě modifikátor přístupnosti, argumenty a jiná klíčová slova.
 
 ```java
 public class Main {
@@ -141,29 +141,13 @@ class Main {
 
 ### Proměnné
 
-Proměnné = pole (ne seznam)
-
-Pole a vlastnosti se musí nacházet v nějaké třídě, mít datový typ a jméno.
-Mohou mít nastavený modifikátor přístupnosti a výchozí hodnotu.
-
-Pole uchovávají data a k přístupu k nim (a jejich modifikaci) se používají vlastnosti.
-Vlastnosti jsou, technicky vzato, metody.
+Při definování proměnné je zpotřebí uvést datový typ a jméno. Přiřazení hodnoty je potřebné pouze, pokud se jedná o non-nullable datový typ. Proměnná *existuje* pouze v bloku, kde je definována - v podmínce, metodě / funkci, cyklu atd.
 
 ```java
-public class Zak {
-    private String jmeno; // pole
-    private int vek; // taky pole
-    private int znamka;
-
-    // vlastnost (getter)
-    public String getJmeno() {
-        return jmeno;
-    }
-
-    // taky vlastnost (setter)
-    public void setZnamka(int novaZnamka) {
-        znamka = novaZnamka;
-    }
+private void main(String[] args) {
+    int promennaA = 5;
+    char promennaB = 'a';
+    Auto auto; // Třídá 'Auto' je nullable, přiřazení není třeba
 }
 ```
 
@@ -322,7 +306,31 @@ for (int i = 0; i < 10; i++) {
 
 Třída je *šablona* pro vytváření objektů. Třída může obsahovat pole, vlastnosti, metody a konstruktory.
 
-*Pole, vlastnosti a metody jsou popsány výše.*
+(Pole = proměnná třídy; neplést si s polem jako seznam) K tomuto poli je možné přistoupit kdekoliv ze třídy, kde je pole nadefinováno. Pole mohou mít modifikátor přístupnosti, ale ve většině případů se nechává u polí modifikátor `private`. V případě, kdy chceme k tomuto poli přistupovat z jiné třídy, je vhodné pole zapouzdřit.
+
+Zapouzdření znamená zabalení dat a metod do jedné komponenty (třídy). Zapouzdření umožňuje skrýt některé metody a atributy tak, aby zůstaly použitelné jen pro třídu zevnitř. Objekt si můžeme představit jako černou skřínku, která má určité rozhraní, přes které jí předáváme instrukce/data a ona je zpracovává.
+
+```java
+public class Ucet {
+	private float zustatek = 500f;
+ 
+	public float zjistitZustatek() {
+		return zustatek;
+	}
+}
+
+public class Main {
+    private void main(String[] args) {
+        Ucet mujUcet = new Ucet();
+        float zustatekNaUcte = mujUcet.zjistitZustatek();
+    }
+}
+
+// Metoda Main může zjistit zůstatek na účtě skrz veřejnou (public)
+// metodu "zjistitZustatek", kterou poskytuje samotná třída "Ucet",
+// ale současně nemůže manipulovat přímo s hodnotou "zustatek"
+```
+
 Konstruktor je *"speciální druh metody"*. Slouží k inicializaci objektu a případnému nastavení výchozích hodnot do polí. Třída může mít několik konstruktorů. Jestliže má třída konstrukor, při vytváření objektu je nutné použít jeden z nadefinovaných konstruktorů. Jestliže třída nemá nadefinovaný konstrukor, všechna pole budou mít výchozí hodnotu jejich datového typu.
 
 ```java
@@ -372,7 +380,7 @@ class Zvire {
     }
 }
 
-// Třída Liska má pole 'barva' a metodu 'zvukZvirete'
+// Třída 'Liska' má pole 'barva' a metodu 'zvukZvirete'
 class Liska extends Zvire {
     @Override
     public void zvukZvirete() {
@@ -380,7 +388,7 @@ class Liska extends Zvire {
     }
 }
 
-// Třída Pes má pole 'barva' a metodu 'zvukZvirete'
+// Třída 'Pes' má pole 'barva' a metodu 'zvukZvirete'
 class Pes extends Animal {
     @Override
     public void zvukZvirete() {
@@ -421,5 +429,5 @@ Učil to Prokop.
 
 ```
 Autor: Adam Žluva
-Datum: 5. 3. 2022
+Datum: 8. 3. 2022
 ```
