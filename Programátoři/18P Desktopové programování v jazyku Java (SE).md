@@ -415,6 +415,8 @@ try {
 
 ## Jazyk UML, use case, diagram tříd, testování FuT, InT, UAT.
 
+<!-- TODO doplnit info o UML -->
+
 xd
 
 Učil to Prokop.
