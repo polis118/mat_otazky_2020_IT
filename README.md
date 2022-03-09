@@ -28,9 +28,9 @@
 - [x] 15P
 - [ ] 16P
 - [ ] 17P
-- [x] 18P
+- [x] 18P (chybí UML)
 - [x] 19P
-- [ ] 20P
+- [x] 20P (rozpracované)
 - [ ] 21P
 
-***Updated 5. 3. 2022***
+***Updated 8. 3. 2022***
