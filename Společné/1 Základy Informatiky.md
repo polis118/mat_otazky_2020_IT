@@ -196,7 +196,7 @@ protokoly, například směrování a meziprocesovou komunikaci.
 
 Následující obrázek zobrazuje digitální signál žlutě a analogový modře:
 
-[!Ukázka rozdílu mezi analogovým a digitálním přenosem](images/analogový_digitální_signál.jpg)
+![Ukázka rozdílu mezi analogovým a digitálním přenosem](images/analogový_digitální_signál.jpg)
 
 ### Sériový a paralelní přenos
 
