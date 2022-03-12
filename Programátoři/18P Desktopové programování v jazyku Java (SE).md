@@ -43,17 +43,30 @@ Metody, vlastnosti, pole a třídy (dále jen MVPT) jsou označeny modifikátore
 
 Např.:
 ```java
-public int cislo = 5;
-private class NejakaData {}
-protected float desCislo = 5.4f;
+class ModifikatoryTest {
+    public int cislo = 5;
+    private NejakaData data;
+    protected float desCislo = 5.4f;
+}
+
+class Main {
+    private void main(String[] args) {
+        ModifikatoryTest test = new ModifikatoryTest();
+
+        test.cislo; // JDE
+        test.data; // NEJDE
+        test.desCislo; // TAKY NEJDE
+    }
+}
 ```
 
 ---
 
 ## Konstrukce metody (funkce)
 
-Každá metoda se musí nacházet v nějaké třídě, mít návratový datový typ, jméno a definované tělo.
+idk proč je v zadání funkce, když Java je OOP jazyk, ale budeme brát že **funkce = metoda.**
 
+Každá metoda se musí nacházet v nějaké třídě, mít návratový datový typ, jméno a definované tělo.
 Popřípadě může mít metoda ještě modifikátor přístupnosti, argumenty a jiná klíčová slova.
 
 ```java
@@ -148,6 +161,14 @@ private void main(String[] args) {
     int promennaA = 5;
     char promennaB = 'a';
     Auto auto; // Třídá 'Auto' je nullable, přiřazení není třeba
+
+    if (audo != null) {
+        int promennaC = 10;
+
+        System.out.println(promennaC);
+    }
+
+    // 'promennaC' zde už neexistuje
 }
 ```
 
@@ -160,7 +181,7 @@ Existují primitivní datové typy a neprimitivní datové typy.
 Primitivní 
 - Jsou předvytvořené
 - Musí mít nadefinovanou hodnotu (nemohou být `null`)
-- Nobsahují metody 
+- Nobsahují metody
 
 Neprimitivní (V podstatě to jsou třídy)
 - Vytváří je programátor
@@ -423,13 +444,12 @@ try {
 
 ## Jazyk UML, use case, diagram tříd, testování FuT, InT, UAT.
 
+? xd
+
 <!-- TODO doplnit info o UML -->
-
-xd
-
-Učil to Prokop.
 
 ```
 Autor: Adam Žluva
-Datum: 8. 3. 2022
+Datum: 5. 3. 2022
+Poslední editace: 12. 3. 2022
 ```

@@ -16,7 +16,7 @@
 - [x] 12 
 - [x] 13
 - [x] 14 + poznámky
-
+---
 - [x] 15S
 - [x] 16S
 - [ ] 17S
@@ -24,13 +24,13 @@
 - [ ] 19S
 - [x] 20S
 - [x] 21S
-
+---
 - [x] 15P
 - [ ] 16P
 - [ ] 17P
 - [x] 18P (chybí UML)
 - [x] 19P
 - [x] 20P (doplnit jQuery)
-- [ ] 21P
+- [x] 21P (rozpracované)
 
-***Updated 8. 3. 2022***
+***Updated 12. 3. 2022***
