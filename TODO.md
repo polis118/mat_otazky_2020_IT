@@ -10,3 +10,183 @@ Dopsat
 - [ ] co je to kapacita
 
 ---
+
+<!---
+velmi velmi raw verze toho, co říkal hapl v BIS, pokud není něco z tohohle dopsáno, tak by se to tam mohlo přihodit
+
+otázka č.1 --------------------------------------------------------------
+
+Hex využití
+
+IPv6
+Adresace paměti, čtení paměti
+Mac adresa
+
+Dec vs bin
+Vyuziti v pocitacich jestli napeti je, nebo neni. (vetsinou kdyz je napeti tak 1, neni napeti 0)
+
+Bin vs hex
+
+Zmrsknuti binarnich hodnot do hexadecimalu
+Jedno hex cislo muze byt vyjadreno 4mi binarnimi cisly
+
+Prevod mezi bin a hex
+
+101101
+V
+10|1101
+2  | 13
+2  | D
+
+13 - > D
+13-9=4
+A b c d e f
+D je ctvrte
+Vysledek je 2d
+
+
+
+Vyjadreni velke velikosti v mocnine
+
+2^38 - 2^30 je Giga, 2^8 je 256 takže odpověď je 256G
+
+8b - 1B (znak) , 4b - nibble/pulbit, 16b = 2B - slovo
+
+
+
+Data mohou přinášet informace
+Medium přenáší informace
+
+Data mohou byt i neporozumene hodnoty, pokud jsou data porozumeny, tak se stavaji informaci
+
+Kapacita je maximalni mnozstvi ulozenych dat
+
+Přímý kod
+
+Záporne (-)  ->      1 | 1010
+Kladne.  (+) ->      0 | 1010
+
+
+Zakodovani informace
+
+
+Napr zpusob dopravy
+
+1011
+
+1.bit = 0, autem nelze
+            1, autem lze
+
+2.bit = 0, vlakem nelze
+            1, vlakem lze
+
+3.bit = 0, letadlem nelze
+            1, letadlem lze
+
+X.bit = 0,xxx nelze
+             1,xxx lze
+
+
+Tldr: bity nemusí znamenat jen čísla, mohou být také stavy, či možnosti
+
+
+V CMOS pameti nalezneme 01011001
+8b dat
+
+01011001 = 89s ale 89s neni mozne v minute
+
+Spatna interpretace dat
+Toty data se interpretuji po skupinach po 4.
+
+0101 | 1001
+     5.     9.
+59s, toto už možné je
+
+
+Propustnost
+- schopnost media prenest urcity objem dat (maximalni) 
+Napr.
+Ethernet - 10Mbit/s
+FastEthernet - 100Mbit/s
+
+Sběrnice - SATA 3 - 6Gbit/s
+
+
+Typy prenosu dat
+
+Paralelní
+Seriovy
+
+Seriovy je preferovany, kvuli frekvencim
+
+Takt a frekvence
+
+Takt je hodinova a rizena frekvence
+
+Frekvence je frekvence lol
+
+otázka č.6 --------------------------------------------------------------
+
+Co to je Os
+
+Rozhrani umoznujici interfacovani mezi uzivatelem a hardwarem
+
+Rozdeluje se na shell a jadro
+
+Jadro
+Rozdeleni
+Monoliticke - pouzivane Linuxem
+Jadro musi mit veskere drivery nactene v jadru, a dalsi drivery musi byt pridany, a kompilovany primo s jadrem
+
+Mikrojadro - pouzivane Microsoft
+Oddelene vrstvy, jadra a ovladace
+
+
+Typy - 
+Jednouzivatelsky
+DOS
+
+Viceuzivatelsky
+Windows, linux
+
+---
+Jednoulohovy 
+DOS
+
+Viceulohovy
+Win/Linux
+
+--
+Multitasking
+
+Preemptivni
+Win98 - 11
+
+Presne vyhrazeny cas, pomoci dispeceru, a OS po danem casu vzdy prerazene prostredky
+
+
+Cooperativni
+Win3.1
+Win95
+
+Kazda aplikace zodpovedna za prirazeni  rizeni jine aplikace
+
+
+Shell muze byt terminalovy, nebo graficky, nebo oboji
+
+Evidence procesu
+
+Co je to proces
+
+Kde se bere
+Proces vznika z aplikace na disku
+(BEZICI) proces - je v RAM
+(nebezici) proces - muze byt na disku
+
+Kdo se o ne stara
+Cast jadra (dispatcher) 
+Prideluje aplikacim ID a prideluje aplikacim prostredky (pamet, procesor, čas)
+
+
+sorry for shit spelling, byl jsem rád že jsem ho chápal a stíhal zapisovat na phone ok dik cs
+-->
