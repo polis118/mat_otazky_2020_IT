@@ -23,6 +23,13 @@ Panely, do kterých můžeme umístit jiné forulářové prvky (podřízené pr
 
 Základní framework pro tvorbu okenních aplikací v Javě. Každé okno je vázané na třídu a veškeré formulářové prvky jsou uloženy do polí této třídy.
 
+Při vývoji okenních aplikací se doporučuje držet se architektury MVC, která se snaží rozdělit aplikace na 3 části:
+- Model - Obsahuje data, logiku, vykonáva práci
+- View - Rozložení a prvky aplikace / okna
+- Controller - Propojuje Model a View. Řeší zvládnutí akcí vyvolaných z View a zpětnému zobrazení výsledků z Modelů.
+
+v IntelliJ můžeme psát kód rozhraní ručně, nebo můžeme použít grafický designér.
+
 ```java
 // Příklad třídy vázané na okno
 package com.company.View;
@@ -58,6 +65,27 @@ public class ExampleForm extends JFrame {
     }
 }
 ```
+
+### Základní prvky
+
+#### JButton
+
+Tlačítko (duh). Na tlačítko můžeme přidat třídy, které implementují rozhraní `ActionListener`. Toto rozhraní obsahuje metodu `actionPerformed(ActionEvent)`, která je zavolána při kliknutí na tlačítko. Argument typu `ActionEvent` obsahuje informace o události a jeho zdroji.
+
+#### JTextField
+
+Vstupní textové pole do kterého může uživatel vepsat nějaký text. Na pole můžeme taktéž přidát třídy, které implementují `ActionListener`. Textové pole vyvolává událost po dokončení zadávání textu (stisknutím klávesy **Enter**).
+
+#### JList
+
+Seznam položek.
+Můžeme specifikovat, zda je možné vybrat více více položek pomocí `setSelectionMode(ListSelectionModel)`
+
+Seznam zobrazuje položky z `ListModel`u, který mu nastavíme. Při změně tohoto `ListModel`u se aktualizuje taktéž seznam viditelných položek.
+
+#### JPanel
+
+Nejzákladnější kontejner. Lze mu nastavit pravidla pro zvětšení v horizontálním i vertikálním směru. Může obsahovat další prvky
 
 ---
 
@@ -139,6 +167,10 @@ Unity3D je modulární herní engine, což znamená že je možné jej použít 
 
 Disponuje fyzikálním, zvukovým, vstupním, grafickým enginem.
 
+Veškeré objekty se nacházejí ve scénách a tyto objekty mohou mít komponenty. Každý komponent vykonává nějakou akci. Může se jednat o vykreslování, pohyb, simulaci fyziky, apod. 
+
+Unity umožňuje kompilovat na velké množství plaforem - Windows, Mac, Linux, XBOX, PS4/5, Nintendo Switch, Android, iOS, atd.
+
 ---
 
 ### Grafické objekty
@@ -212,4 +244,5 @@ Dojde-li ke kolizi, na každém komponentu se zavolají metody `OnCollisionEnter
 ```
 Autor: Adam Žluva
 Datum: 12. 3. 2022
+Poslední editace: 16. 03. 2022
 ```
