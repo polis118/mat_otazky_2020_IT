@@ -25,33 +25,6 @@ Mac adresa
 Dec vs bin
 Vyuziti v pocitacich jestli napeti je, nebo neni. (vetsinou kdyz je napeti tak 1, neni napeti 0)
 
-Bin vs hex
-
-Zmrsknuti binarnich hodnot do hexadecimalu
-Jedno hex cislo muze byt vyjadreno 4mi binarnimi cisly
-
-Prevod mezi bin a hex
-
-101101
-V
-10|1101
-2  | 13
-2  | D
-
-13 - > D
-13-9=4
-A b c d e f
-D je ctvrte
-Vysledek je 2d
-
-
-
-Vyjadreni velke velikosti v mocnine
-
-2^38 - 2^30 je Giga, 2^8 je 256 takže odpověď je 256G
-
-8b - 1B (znak) , 4b - nibble/pulbit, 16b = 2B - slovo
-
 
 
 Data mohou přinášet informace
@@ -65,9 +38,6 @@ Přímý kod
 
 Záporne (-)  ->      1 | 1010
 Kladne.  (+) ->      0 | 1010
-
-
-Zakodovani informace
 
 
 Napr zpusob dopravy
@@ -94,14 +64,6 @@ V CMOS pameti nalezneme 01011001
 8b dat
 
 01011001 = 89s ale 89s neni mozne v minute
-
-Spatna interpretace dat
-Toty data se interpretuji po skupinach po 4.
-
-0101 | 1001
-     5.     9.
-59s, toto už možné je
-
 
 Propustnost
 - schopnost media prenest urcity objem dat (maximalni) 
