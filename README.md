@@ -12,10 +12,10 @@ Originální dokumenty v branchi 'original'.
 - [ ] 8 [Prezentační nástroj a multimédia](Společné/8%20PPT%20a%20Multimédia.md)
 - [ ] 9 [Databáze](Společné/9%20Databáze.md)
 - [ ] 10 [Hypertext, kaskádové styly a webové skriptování](Společné/10%20Hypertext,%20kaskádové%20styly%20a%20webové%20skriptování.md)
-- [ ] 11 [Principy počítačových sítí LAN a WAN](Společné/11%20Základy%20sítí.md) + poznámky
+- [ ] 11 [Principy počítačových sítí LAN a WAN](Společné/11%20Základy%20sítí.md)
 - [ ] 12 [Bezpečnost v síťové infrastruktuře](Společné/12%20Bezpečnost.md)
 - [ ] 13 [Tvorba dokumentů v balíku kancelářských aplikací](Společné/13%20Word,%20Excel.md)
-- [ ] 14 [Základy elektrotechniky a číslicové logiky](Společné/14%20Základy%20ELN%20a%20CST.md) + poznámky
+- [ ] 14 [Základy elektrotechniky a číslicové logiky](Společné/14%20Základy%20ELN%20a%20CST.md)
 ---
 - [ ] 15S [Směrování a směrovací protokoly](Síťaři/15S_routing_a_routing_protokoly.md)
 - [ ] 16S [Segmentace sítí - VLAN](Síťaři/16S_segmentace_siti_vlan.md)
