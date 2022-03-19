@@ -31,6 +31,6 @@ Originální dokumenty v branchi 'original'.
 - [ ] 18P [Desktopové programování v jazyku Java (SE)](Programátoři/18P%20Desktopové%20programování%20v%20jazyku%20Java%20(SE).md) (chybí UML)
 - [ ] 19P [Databázový systém MySQL](Programátoři/19P%20Databázový%20systém%20MySQL.md)
 - [ ] 20P [Frameworky pro webová řešení](Programátoři/20P%20Frameworky%20pro%20webová%20řešení.md) (doplnit jQuery)
-- [x] 21P [Frameworky pro desktopová řešení](Programátoři/21P%20Frameworky%20pro%20desktopová%20řešení.md) (rozpracované)
+- [x] 21P [Frameworky pro desktopová řešení](Programátoři/21P%20Frameworky%20pro%20desktopová%20řešení.md)
 
 ***Updated 19. 3. 2022***
