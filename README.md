@@ -3,7 +3,7 @@
 Originální dokumenty v branchi 'original'.
 
 - [ ] 1 [Základy informatiky](Společné/1%20Základy%20Informatiky.md) (potřeba revize Přímého kódu a zjednodušení Typů přenosu dat a sekce o Taktu a frekvenci)
-- [ ] 2 [Procesory pro PC](Společné/2%20Procesory%20IBM%20PC.md) - Píšek L.
+- [x] 2 [Procesory pro PC](Společné/2%20Procesory%20IBM%20PC.md) - Píšek L.
 - [ ] 3 [Architektura počítačů IBM-PC](Společné/3%20Architektura%20IBM%20PC.md) - Táborský R.
 - [ ] 4 [Periferní zařízení PC](Společné/4%20Periferní%20zařízení.md) - Pijáček M.
 - [ ] 5 [Bootování operačního systému a souborové systémy](Společné/5%20Bootování%20OS%20a%20souborové%20systémy.md)
