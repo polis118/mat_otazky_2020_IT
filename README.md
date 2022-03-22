@@ -17,6 +17,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 13 [Tvorba dokumentů v balíku kancelářských aplikací](Společné/13%20Word,%20Excel.md)
 - [ ] 14 [Základy elektrotechniky a číslicové logiky](Společné/14%20Základy%20ELN%20a%20CST.md) - Koňař L.
 ---
+### Síťaři
 - [ ] 15S [Směrování a směrovací protokoly](Síťaři/15S_routing_a_routing_protokoly.md)
 - [ ] 16S [Segmentace sítí - VLAN](Síťaři/16S_segmentace_siti_vlan.md) - Kukučka O.
 - [ ] 17S Wi-Fi a VF technika
@@ -25,6 +26,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 20S [Správa OS Windows v PowerShellu](Síťaři/20S_sprava_os_win_powershell_puvodni.md)
 - [ ] 21S [Interpret Bash](Síťaři/21S_bash.md)
 ---
+### Programátoři
 - [ ] 15P [Hardware a programování minipočítače Raspberry Pi](Programátoři/15P%20HW%20a%20programování%20minipočítače%20RPI.md)
 - [ ] 16P Programování na platformě Android v jazyku Java - Cerman J.
 - [ ] 17P Pokročilé skriptování na straně klienta a serveru
