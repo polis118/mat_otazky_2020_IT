@@ -21,7 +21,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 16S [Segmentace sítí - VLAN](Síťaři/16S_segmentace_siti_vlan.md) - Kukučka O.
 - [ ] 17S Wi-Fi a VF technika
 - [ ] 18S Základní správa OS Linux a Windows
-- [ ] 19S Hardware podnikových řešení
+- [ ] 19S Hardware podnikových řešení - Zdražil P.
 - [ ] 20S [Správa OS Windows v PowerShellu](Síťaři/20S_sprava_os_win_powershell_puvodni.md)
 - [ ] 21S [Interpret Bash](Síťaři/21S_bash.md)
 ---
@@ -33,4 +33,4 @@ Originální dokumenty v branchi 'original'.
 - [ ] 20P [Frameworky pro webová řešení](Programátoři/20P%20Frameworky%20pro%20webová%20řešení.md) (doplnit jQuery) - Táborský R.
 - [x] 21P [Frameworky pro desktopová řešení](Programátoři/21P%20Frameworky%20pro%20desktopová%20řešení.md) - Žluva A.
 
-***Updated 20. 3. 2022***
+***Updated 22. 3. 2022***
