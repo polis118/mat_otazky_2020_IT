@@ -18,7 +18,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 14 [Základy elektrotechniky a číslicové logiky](Společné/14%20Základy%20ELN%20a%20CST.md) - Koňař L.
 ---
 ### Síťaři
-- [ ] 15S [Směrování a směrovací protokoly](Síťaři/15S_routing_a_routing_protokoly.md)
+- [ ] 15S [Směrování a směrovací protokoly](Síťaři/15S_routing_a_routing_protokoly.md) - Tománek J.
 - [ ] 16S [Segmentace sítí - VLAN](Síťaři/16S_segmentace_siti_vlan.md) - Kukučka O.
 - [ ] 17S Wi-Fi a VF technika
 - [ ] 18S Základní správa OS Linux a Windows
