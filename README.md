@@ -21,10 +21,10 @@ Originální dokumenty v branchi 'original'.
 - [ ] 15S [Směrování a směrovací protokoly](Síťaři/15S_routing_a_routing_protokoly.md) - Tománek J.
 - [ ] 16S [Segmentace sítí - VLAN](Síťaři/16S_segmentace_siti_vlan.md) - Kukučka O.
 - [ ] 17S Wi-Fi a VF technika
-- [ ] 18S Základní správa OS Linux a Windows
+- [ ] 18S Základní správa OS Linux a Windows - Kukučka O.
 - [ ] 19S Hardware podnikových řešení - Zdražil P.
-- [ ] 20S [Správa OS Windows v PowerShellu](Síťaři/20S_sprava_os_win_powershell_puvodni.md)
-- [ ] 21S [Interpret Bash](Síťaři/21S_bash.md)
+- [ ] 20S [Správa OS Windows v PowerShellu](Síťaři/20S_sprava_os_win_powershell_puvodni.md) - Povala L.
+- [ ] 21S [Interpret Bash](Síťaři/21S_bash.md) - Samuel S.
 ---
 ### Programátoři
 - [ ] 15P [Hardware a programování minipočítače Raspberry Pi](Programátoři/15P%20HW%20a%20programování%20minipočítače%20RPI.md)
