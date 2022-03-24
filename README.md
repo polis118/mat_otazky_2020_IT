@@ -9,7 +9,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 5 [Bootování operačního systému a souborové systémy](Společné/5%20Bootování%20OS%20a%20souborové%20systémy.md) - Gospoš R.
 - [ ] 6 [Správa procesů a paměti v operačních systémech](Společné/6%20Správa%20paměti%20a%20procesů.md)
 - [x] 7 [Algoritmizace a programovací jazyk Python](Společné/7%20Algoritmizace.md) - Táborský R.
-- [ ] 8 [Prezentační nástroj a multimédia](Společné/8%20PPT%20a%20Multimédia.md)
+- [ ] 8 [Prezentační nástroj a multimédia](Společné/8%20PPT%20a%20Multimédia.md) - Klícha M.
 - [ ] 9 [Databáze](Společné/9%20Databáze.md) - Stacha V.
 - [x] 10 [Hypertext, kaskádové styly a webové skriptování](Společné/10%20Hypertext,%20kaskádové%20styly%20a%20webové%20skriptování.md) - Žluva A.
 - [ ] 11 [Principy počítačových sítí LAN a WAN](Společné/11%20Základy%20sítí.md) - Čáň J.
@@ -21,7 +21,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 15S [Směrování a směrovací protokoly](Síťaři/15S_routing_a_routing_protokoly.md) - Tománek J.
 - [ ] 16S [Segmentace sítí - VLAN](Síťaři/16S_segmentace_siti_vlan.md) - Kukučka O.
 - [ ] 17S Wi-Fi a VF technika - Sniegoň J.
-- [ ] 18S Základní správa OS Linux a Windows - Klícha M.
+- [ ] 18S Základní správa OS Linux a Windows
 - [ ] 19S Hardware podnikových řešení - Zdražil P.
 - [ ] 20S [Správa OS Windows v PowerShellu](Síťaři/20S_sprava_os_win_powershell_puvodni.md) - Povala L.
 - [ ] 21S [Interpret Bash](Síťaři/21S_bash.md) - Samuel S.
