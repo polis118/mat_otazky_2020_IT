@@ -3,7 +3,7 @@
 Originální dokumenty v branchi 'original'.
 
 - [ ] 1 [Základy informatiky](Společné/1%20Základy%20Informatiky.md) (potřeba revize Přímého kódu a zjednodušení Typů přenosu dat a sekce o Taktu a frekvenci)
-- [x] 2 [Procesory pro PC](Společné/2%20Procesory%20IBM%20PC.md) - Píšek L.
+- [x] 2 [Procesory pro PC](Společné/2%20Procesory%20pro%20PC.md) - Píšek L.
 - [x] 3 [Architektura počítačů IBM-PC](Společné/3%20Architektura%20IBM%20PC.md) - Táborský R.
 - [ ] 4 [Periferní zařízení PC](Společné/4%20Periferní%20zařízení.md) - Pijáček M.
 - [ ] 5 [Bootování operačního systému a souborové systémy](Společné/5%20Bootování%20OS%20a%20souborové%20systémy.md) - Gospoš R.
@@ -27,7 +27,7 @@ Originální dokumenty v branchi 'original'.
 - [ ] 21S [Interpret Bash](Síťaři/21S_bash.md) - Samuel S.
 ---
 ### Programátoři
-- [ ] 15P [Hardware a programování minipočítače Raspberry Pi](Programátoři/15P%20HW%20a%20programování%20minipočítače%20RPI.md) - Táborský R.
+- [ ] 15P [Hardware a programování minipočítače Raspberry Pi](Programátoři/15P%20Hardware%20a%20programování%20minipočítače%20Raspberry%20Pi.md) - Táborský R.
 - [ ] 16P Programování na platformě Android v jazyku Java - Cerman J.
 - [ ] 17P Pokročilé skriptování na straně klienta a serveru - Matulík M.
 - [x] 18P [Desktopové programování v jazyku Java (SE)](Programátoři/18P%20Desktopové%20programování%20v%20jazyku%20Java%20(SE).md) (chybí UML) - Žluva A.
