@@ -2,6 +2,8 @@
 
 > Algoritmus, vývojový diagram a jednotlivé schematické prvky, principy strukturovaného a objektově orientovaného programování, konstrukce (podmínka, cyklus, proměnná, vstupy, výstupy, procedury, funkce) ve vztahu k jazyku Python. Python a operátory, proměnné, vstup/výstup.
 
+---
+
 Algoritmus je přesný návod či postup, kterým lze vyřešit daný typ úlohy. Pojem algoritmu se nejčastěji objevuje při
 programování, kdy se jím myslí teoretický princip řešení problému (oproti přesnému zápisu v konkrétním programovacím
 jazyce). Obecně se ale algoritmus může objevit v jakémkoli jiném vědeckém odvětví. Jako jistý druh algoritmu se může
