@@ -31,7 +31,7 @@ V této době se také objevuje použití binární soustavy a von Neumannovy ar
 pro [Wikipedii](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present))*
 
 Používány tranzistory: zmenšení rozměrů, zvýšení rychlosti a spolehlivosti, snížení energetických nároků. V této
-generaci jsou stále zmíňky o používání decimální soustavy, ale ta je silně nahrazována binární.
+generaci jsou stále zmínky o používání decimální soustavy, ale ta je silně nahrazována binární.
 
 Trhu počítačů v této době dominovalo IBM, za zmínku stojí i Bell labs, kde vznikl tranzistor (Bardeen, Brattain a
 Shockley).
@@ -232,9 +232,9 @@ MLC buněk snižuje jejich počet.
 
 Hierarchie pamětí je setříděna následovně:
 
-SLC (1 bit v buňce) – nejrychlejší, nejvyšší cena, největší životnost MLC (2 bity v buňce)
-TLC (3 bity v buňce)
-QLC (4 bity v buňce) – nejpomalejší, nejlevnější, největší životnost
+* SLC (1 bit v buňce) – nejrychlejší, nejvyšší cena, největší životnost MLC (2 bity v buňce)
+* TLC (3 bity v buňce)
+* QLC (4 bity v buňce) – nejpomalejší, nejlevnější, největší životnost
 
 ### Skříň
 

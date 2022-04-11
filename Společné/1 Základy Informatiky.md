@@ -90,7 +90,7 @@ Hexadecimální čísla mají dvě možné situace a dva možné způsoby převo
 
 ##### Jednomístné čísla
 
-V případě jednoduchých, jednomístných hex čísel (např. A, F, 5, 6) se stačí řídit podle tabulky v kapitole o
+V případě jednoduchých, jednomístných hex čísel (třeba A, F, 5, 6) se stačí řídit podle tabulky v kapitole o
 [hex soustavě](#šestnáctková).
 
 ##### Vícemístná čísla
@@ -196,7 +196,8 @@ protokoly, například směrování a meziprocesovou komunikaci.
 
 Následující obrázek zobrazuje digitální signál žlutě a analogový modře:
 
-![Ukázka rozdílu mezi analogovým a digitálním přenosem](images/analogový_digitální_signál.jpg)
+![Ukázka rozdílu mezi analogovým a digitálním přenosem](images/analogový%20a%20digitální%20signál%20-%20light.png#gh-light-mode-only)
+![Ukázka rozdílu mezi analogovým a digitálním přenosem](images/analogový%20a%20digitální%20signál%20-%20dark.png#gh-dark-mode-only)
 
 ### Sériový a paralelní přenos
 
@@ -210,7 +211,7 @@ vzdálenosti pro kontrolní součet nebo paritní bit.
 Paralelní přenos znamená současný přenos signálního prvku znaků nebo jiného druhu údajů. V digitální komunikaci používá
 paralelní přenos dva nebo více vodičů, což umožňuje vyšší rychlost přenosu dat, než jaké lze dosáhnout pomocí sériového
 přenosu. Tato metoda se v dnešní době používá zejména pouze při komunikaci mezi CPU a RAM. Hlavním problémem je
-„zkreslení“ (a přeslechy, to jest kdy signál přeskkočí z jednoho vodiče na druhý), protože vodiče při paralelním přenosu
+„zkreslení“ (a přeslechy, to jest kdy signál přeskočí z jednoho vodiče na druhý), protože vodiče při paralelním přenosu
 mají odlišné vlastnosti. Kvůli tomu mohou být některé bity přijaty dříve než ostatní, čili všechny vodiče musí být
 přesně stejně dlouhé. K řešení tohoto problému se nabízí paritní bit, nicméně paralelní přenos na dlouhé vzdálenosti je
 stále méně spolehlivý, protože narušení přenosu je mnohem pravděpodobnější.

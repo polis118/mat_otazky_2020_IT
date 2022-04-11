@@ -2,6 +2,8 @@
 
 > Statické a dynamické směrování. Výchozí síť, masky, VLSM. Přehled směrovacích protokolů (RIP, RIPv2, EIGRP, OSPF), cena cesty, metrika. VLAN routing, „router on the stick“, NAT. Popis dynamických protokolů, kompatibilita, algoritmy vyhledávání cesty, konfigurace (příkazy pro nastavení Cisco směrovačů).
 
+---
+
 ## Směrovač (router)
 
 Je zařízení, které provádí routování, propojuje jednotlivé sítě a dovoluje přeposílání dat mezi nimi.
